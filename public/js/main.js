@@ -1,20 +1,19 @@
 // preloader 
 
-window.addEventListener('load', function () {
-  document.querySelector('.pre-loader').className += ' hidden'
-});
-
+// window.addEventListener('load', function () {
+//   document.querySelector('.pre-loader').className += ' hidden'
+// });
 // nav bar
-window.onscroll = function() { toggleNavbarShadow() };
+window.onscroll = function () { toggleNavbarShadow() };
 
 function toggleNavbarShadow() {
   const navbar = document.getElementById("navbar");
   if (window.scrollY > 0) {
-    navbar.style.backgroundColor = "#ffffff"; 
-    navbar.style.boxShadow = "0px 2px 15px rgba(0, 0, 0, 0.1)"; 
+    navbar.style.backgroundColor = "#ffffff";
+    navbar.style.boxShadow = "0px 2px 15px rgba(0, 0, 0, 0.1)";
   } else {
-    navbar.style.backgroundColor = "transparent"; 
-    navbar.style.boxShadow = "none"; 
+    navbar.style.backgroundColor = "transparent";
+    navbar.style.boxShadow = "none";
   }
 }
 
@@ -45,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
         e.preventDefault();
         const subMenu = this.querySelector(".sub-menu");
         if (subMenu) {
-          const isVisible = subMenu.style.display === "block";
+          const isVisible = subMenu.style.display === "none";
           subMenu.style.display = isVisible ? "none" : "block";
         }
       }
@@ -62,18 +61,17 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-
 // Counter animation script
 document.querySelectorAll('.counter').forEach(counter => {
   const updateCount = () => {
     const target = +counter.getAttribute('data-target');
     const count = +counter.innerText;
 
-    const increment = target / 200; 
+    const increment = target / 200;
 
     if (count < target) {
       counter.innerText = Math.ceil(count + increment);
-      setTimeout(updateCount, 10); 
+      setTimeout(updateCount, 10);
     } else {
       counter.innerText = target;
     }
@@ -105,15 +103,15 @@ function reveal() {
 
 $(document).ready(function () {
   $('#testimonial-slider').owlCarousel({
-      items: 1,
-      itemsDesktop: [1000, 1],
-      itemsDesktopSmall: [979, 1],
-      itemsTablet: [768, 1],
-      pagination: false,
-      navigation: true,
-      navigationText: ["", ""],
-      slideSpeed: 2000,
-      autoPlay: true
+    items: 1,
+    itemsDesktop: [1000, 1],
+    itemsDesktopSmall: [979, 1],
+    itemsTablet: [768, 1],
+    pagination: false,
+    navigation: true,
+    navigationText: ["", ""],
+    slideSpeed: 2000,
+    autoPlay: true
   });
 });
 
