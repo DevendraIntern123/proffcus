@@ -1,3 +1,9 @@
+// preloader 
+
+window.addEventListener('load', function () {
+  document.querySelector('.pre-loader').className += ' hidden'
+});
+
 // nav bar
 window.onscroll = function() { toggleNavbarShadow() };
 
@@ -11,6 +17,51 @@ function toggleNavbarShadow() {
     navbar.style.boxShadow = "none"; 
   }
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  const navItems = document.querySelectorAll(".nav-item.dropdown");
+
+  navItems.forEach((item) => {
+    item.addEventListener("mouseenter", function () {
+      if (window.innerWidth > 991) {
+        const subMenu = this.querySelector(".sub-menu");
+        if (subMenu) {
+          subMenu.style.display = "block";
+        }
+      }
+    });
+
+    item.addEventListener("mouseleave", function () {
+      if (window.innerWidth > 991) {
+        const subMenu = this.querySelector(".sub-menu");
+        if (subMenu) {
+          subMenu.style.display = "none";
+        }
+      }
+    });
+
+    item.addEventListener("click", function (e) {
+      if (window.innerWidth <= 991) {
+        e.preventDefault();
+        const subMenu = this.querySelector(".sub-menu");
+        if (subMenu) {
+          const isVisible = subMenu.style.display === "block";
+          subMenu.style.display = isVisible ? "none" : "block";
+        }
+      }
+    });
+  });
+
+  const navbar = document.getElementById("navbar");
+  window.addEventListener("scroll", function () {
+    if (window.scrollY > 50) {
+      navbar.classList.add("scrolled");
+    } else {
+      navbar.classList.remove("scrolled");
+    }
+  });
+});
+
 
 // Counter animation script
 document.querySelectorAll('.counter').forEach(counter => {

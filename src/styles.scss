@@ -1,4 +1,46 @@
 // "node_modules/animate.css/animate.min.css"
+/* Pre loader */
+.loading-gif {
+    max-width: 500px;
+    // opacity: 0.5;
+}
+
+.pre-loader {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background: #191f265b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.pre-loader.hidden {
+    animation: fadeOut 4s;
+    animation-fill-mode: forwards;
+}
+.pre-loader img{
+    height: 300px;
+    width: 300px;
+}
+.pre-loader h1 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+/* pre loader */
 
 .animate__animated {
     animation-duration: 2s;
@@ -34,5 +76,5 @@
     background-color: #00AFF0;
     transform: scale(1.1);
     box-shadow: 0 6px 10px rgb(0, 0, 0);
-    color: 	#ffffff;
+    color: #ffffff;
 }
