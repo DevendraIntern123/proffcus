@@ -1,0 +1,46 @@
+.affiliate{
+    padding-top: 100px;
+}
+.on-left h1{
+    // padding: 30px;
+    font-size: 3.0625rem;
+    line-height: 3.6875rem;
+    margin-bottom: 1.5rem;
+    margin-top: 20px;
+    font-weight: 700;
+    color: #272742;
+}
+.on-left p{
+    margin-bottom: 2.8125rem;
+    font-size: 1rem;
+    line-height: 30px;
+    font-weight: 400;
+    color: #666;
+    padding: 10px;
+    text-align: left;
+}
+.btn{
+    background-color: #408fe9;
+    padding: 15px 40px;
+    margin-top: 0px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #ffffff;
+}
+.btn:hover{
+    background-color: #40d5e9;
+    padding: 15px 40px;
+    margin-top: 0px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #000000;
+}
+.on-right {
+    img {
+        width: 100%; 
+        height: auto;
+        border-radius: 10%; 
+    }
+    padding: 0;
+    margin: 0;
+}

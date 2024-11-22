@@ -1,0 +1,110 @@
+.navbar {
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  color: #000000;
+  z-index: 999999;
+  box-shadow: none; /* No shadow initially */
+  transition: all 0.3s ease; /* Smooth transition for shadow */
+}
+
+.navbar-brand img {
+  height: 50px;
+  width: 270px;
+}
+
+.nav-link {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+li.nav-item {
+  padding: 10px 10px;
+}
+
+.req {
+  background-color: #c70925;
+  color: white;
+}
+
+.req:hover {
+  background-color: #e50023;
+  color: #000000;
+}
+
+// nav dropdown
+.nav-item {
+  position: relative;
+}
+
+.js-arrow {
+  font-size: 16px;
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+}
+
+.sub-menu {
+  display: none;
+  list-style-type: none;
+  position: absolute;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  z-index: 1000;
+  text-align: left;
+  margin: 0px -100px;
+}
+
+.bi {
+  padding: 0px 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.sub-menu li {
+  padding: 5px 10px;
+}
+
+.sub-menu li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+}
+
+.sub-menu li a:hover {
+  background-color: #007bff;
+  color: white;
+  border-radius: 10px;
+}
+
+.nav-item:hover .sub-menu {
+  display: block;
+}
+
+.nav-item:hover .js-arrow {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 991px) {
+  .sub-menu {
+    position: static;
+    width: 100%;
+  }
+
+  .nav-item .js-arrow {
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-brand img {
+    width: 180px; /* Adjust logo size for mobile */
+  }
+
+  .nav-link {
+    font-size: 14px; /* Slightly smaller font size on mobile */
+  }
+}

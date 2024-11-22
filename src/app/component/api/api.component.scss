@@ -1,0 +1,91 @@
+.api {
+    padding-top: 60px;
+}
+
+.api h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.4;
+}
+.api p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+}
+.api-con {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 20px;
+}
+.api-con img {
+    height: 70px;
+    width: 70px;
+}
+.api-con h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: left;
+}
+.api-con p {
+    font-size: 20px;
+    margin: 0;
+    color: #444;
+    text-align: left;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.con {
+    padding: 10px 15px;
+}
+.main-card {
+    margin: 10px 0;
+}
+.card {
+    display: flex;
+    flex-direction: column; 
+    padding: 20px;
+    gap: 20px;
+    background: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+    .card {
+        flex-direction: row; 
+        text-align: left;
+    }
+    .card img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 576px) {
+    .api h1 {
+        font-size: 28px;
+    }
+    .api p {
+        font-size: 16px;
+    }
+    .api-best h1 {
+        font-size: 24px;
+    }
+    .card {
+        flex-direction: column; 
+    }
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+}

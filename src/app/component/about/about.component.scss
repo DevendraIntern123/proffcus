@@ -1,0 +1,67 @@
+.about1 {
+    padding-top: 120px;
+
+}
+
+.about-img img {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    background-color: #dddcdc;
+    border-radius: 20px;
+}
+
+.about-con {
+    padding: 70px 50px;
+    // background-color: rgb(214, 216, 216);
+    border-radius: 20px;
+    text-align: justify;
+}
+
+h3 {
+    text-align: center;
+}
+.award {
+    background-color: #dddcdc;
+    padding: 30px 15px;
+}
+.counter-text h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.4;
+    text-align: center;
+    color: #333;
+}
+.counter-section {
+    gap: 15px;
+}
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+}
+.counter {
+    font-size: 2rem;
+    color: #ef2d2d;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+h3 {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    color: #333;
+}
+p {
+    font-size: 0.9rem;
+    color: #666;
+}
+.btn {
+    margin-top: 15px;
+    width: 200px;
+    padding: 10px;
+}

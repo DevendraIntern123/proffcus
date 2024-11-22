@@ -1,0 +1,38 @@
+// "node_modules/animate.css/animate.min.css"
+
+.animate__animated {
+    animation-duration: 2s;
+    transform: translateY(150px);
+    opacity: 1;
+    transition: 1s all ease;
+    z-index: -100;
+}
+
+.icon-bar {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.icon-bar a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    // background-color: 	#00AFF0;
+    color: #00AFF0;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.icon-bar a:hover {
+    background-color: #00AFF0;
+    transform: scale(1.1);
+    box-shadow: 0 6px 10px rgb(0, 0, 0);
+    color: 	#ffffff;
+}

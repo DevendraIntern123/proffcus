@@ -1,0 +1,206 @@
+.home {
+  padding-top: 100px;
+  // margin-bottom: 20px;
+  height: 90vh;
+}
+
+.animate__animated {
+  animation-duration: 2s;
+}
+
+.req_btn {
+  background-color: #c70925;
+  color: white;
+}
+
+.home-left {
+  text-align: left;
+  color: #000000;
+  font-size: 16px;
+}
+
+.home-left p {
+  font-size: 20px;
+  line-height: 32px;
+  color: #020202;
+  padding-bottom: 28px;
+}
+
+.home-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home-right img {
+  width: 100%;
+  // max-width: 500px; 
+}
+
+
+@media (max-width: 1199px) {
+  .home-left h3 {
+      font-size: 28px;
+  }
+  .home-left p {
+      font-size: 18px;
+  }
+  .home-right img {
+      width: 80%; 
+  }
+}
+
+@media (max-width: 991px) {
+  .home {
+      height: auto; 
+  }
+  .home-left h3 {
+      font-size: 24px;
+  }
+  .home-left p {
+      font-size: 16px;
+  }
+  .home-right img {
+      width: 90%; 
+  }
+}
+
+@media (max-width: 767px) {
+  .home-left h3 {
+      font-size: 22px;
+  }
+  .home-left p {
+      font-size: 14px;
+  }
+  .home-right img {
+      width: 100%; 
+  }
+  .home-left {
+      text-align: center; 
+  }
+  .home-left p {
+      padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .home-left h3 {
+      font-size: 20px;
+  }
+  .home-left p {
+      font-size: 14px;
+  }
+  .req_btn {
+      padding: 10px 20px;
+      font-size: 14px; 
+  }
+}
+
+.slider {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+
+
+.slider-track {
+  display: flex;
+  animation: scroll 20s linear infinite;
+}
+
+
+.slider-track img {
+  width: 150px;
+  height: auto;
+  margin: 0 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media (max-width: 768px) {
+  .slider {
+    height: 100px;
+  }
+
+  .slider-track img {
+    width: 100px;
+  }
+}
+
+.achieve {
+  margin-top: 20px;
+  text-align: center;
+  padding: 0px 50px;
+}
+
+
+.card {
+  margin-top: 10px;
+  background: #dfdfdf;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.808);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  // background: rgb(131,58,180);
+  // background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+.card-image img {
+  width: 100px;
+  height: auto;
+  object-fit: cover;
+  border-bottom: 2px solid #fff;
+}
+
+
+.card-content {
+  padding: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.card-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.card-content p {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+
+@media (max-width: 768px) {
+  .card-container {
+    margin-bottom: 20px;
+  }
+
+  .card-content h3 {
+    font-size: 1.2rem;
+  }
+
+  .card-content p {
+    font-size: 0.9rem;
+  }
+}
+
