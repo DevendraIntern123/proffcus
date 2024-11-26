@@ -35,7 +35,8 @@
 
 .home-right img {
   width: 100%;
-  // max-width: 500px; 
+  // max-width: 500px;
+  height: auto; 
 }
 
 
@@ -48,6 +49,7 @@
   }
   .home-right img {
       width: 80%; 
+      
   }
 }
 
@@ -62,7 +64,8 @@
       font-size: 16px;
   }
   .home-right img {
-      width: 90%; 
+      width: 90%;
+      height: auto; 
   }
 }
 
@@ -97,51 +100,6 @@
   }
 }
 
-// .slider {
-//   overflow: hidden;
-//   position: relative;
-//   width: 100%;
-//   height: 150px;
-//   display: flex;
-//   align-items: center;
-//   background-color: #f4f4f4;
-// }
-
-
-// .slider-track {
-//   display: flex;
-//   animation: scroll 20s linear infinite;
-// }
-
-
-// .slider-track img {
-//   width: 150px;
-//   height: auto;
-//   margin: 0 10px;
-//   border-radius: 10px;
-//   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-// }
-
-
-// @keyframes scroll {
-//   0% {
-//     transform: translateX(0);
-//   }
-
-//   100% {
-//     transform: translateX(-100%);
-//   }
-// }
-
-// @media (max-width: 768px) {
-//   .slider {
-//     height: 100px;
-//   }
-
-//   .slider-track img {
-//     width: 100px;
-//   }
-// }
 
 .achieve {
   margin-top: 20px;
@@ -152,7 +110,7 @@
 
 .card {
   margin-top: 10px;
-  background: #dfdfdf;
+  background: #ffffff;
   border-radius: 20px;
   box-shadow: 0 4px 10px rgba(255, 255, 255, 0.808);
   overflow: hidden;
@@ -171,6 +129,7 @@
   height: auto;
   object-fit: cover;
   border-bottom: 2px solid #fff;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 

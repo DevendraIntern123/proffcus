@@ -1,8 +1,9 @@
-.service-main{
+.service-main {
     padding-top: 100px;
 }
+
 .card {
-    background: #faf8f8;
+    background: #ffffff;
     border-radius: 50px;
     box-shadow: 0 4px 10px rgba(255, 255, 255, 0.808);
     overflow: hidden;
@@ -21,6 +22,7 @@
     height: auto;
     object-fit: cover;
     border-bottom: 2px solid #fff;
+    // background-color: rgba(255, 255, 255, 0);
 }
 
 
@@ -52,9 +54,40 @@
     .card-content p {
         font-size: 0.9rem;
     }
+
 }
+
+// .service {
+//     // margin-top: 10px;
+//     padding: 40px 10px;
+//     background-color: #d6d3d3;
+//     border-radius: 20px;
+//     margin-bottom: 20px;
+// }
+
+// .service-con {
+//     // margin-top: 20px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     // height: 100%;           
+//     text-align: center;
+// }
+
+// .service-con p{
+//     padding: 40px 10px;
+//     text-align: justify;
+// }
+
+
+
+// .service-con img {
+//     max-width: 100%;
+//     height: auto;
+//     padding: 50px 0px;
+// }
+
 .service {
-    // margin-top: 10px;
     padding: 40px 10px;
     background-color: #d6d3d3;
     border-radius: 20px;
@@ -62,25 +95,33 @@
 }
 
 .service-con {
-    // margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    // height: 100%;           
     text-align: center;
 }
 
-.service-con p{
-    padding: 40px 10px;
+.service-con p {
+    padding: 20px 10px;
     text-align: justify;
 }
-
-
 
 .service-con img {
     max-width: 100%;
     height: auto;
-    padding: 50px 0px;
+    padding: 20px 0;
+}
+
+
+@media (max-width: 768px) {
+    .service-con .row {
+        flex-direction: column;
+        
+    }
+
+    .service {
+        margin-top: 20px;
+    }
 }
 
 .reveal {
@@ -88,11 +129,9 @@
     transform: translateY(150px);
     opacity: 0;
     transition: 1s all ease;
-  }
+}
 
-  .reveal.active {
+.reveal.active {
     transform: translateY(0);
     opacity: 1;
-  }
-
- 
+}

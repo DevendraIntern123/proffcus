@@ -9,6 +9,7 @@
     margin-top: 20px;
     font-weight: 700;
     color: #272742;
+    text-align: center;
 }
 .on-left p{
     margin-bottom: 2.8125rem;
@@ -17,7 +18,8 @@
     font-weight: 400;
     color: #666;
     padding: 10px;
-    text-align: left;
+    text-align: justify;
+    font-weight: 100;
 }
 .btn{
     background-color: #408fe9;
@@ -26,6 +28,7 @@
     font-weight: 700;
     font-size: 25px;
     color: #ffffff;
+    text-align: center;
 }
 .btn:hover{
     background-color: #40d5e9;
@@ -43,4 +46,74 @@
     }
     padding: 0;
     margin: 0;
+}
+
+.title{
+    text-align: center;
+    padding: 10px 10px;
+    border-bottom: 1px solid black;
+}
+
+.title h1{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+ .title p{
+padding: 30xp;
+ }
+
+.affiliate h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.4;
+}
+.affiliate p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+}
+.affiliate-con {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 20px;
+}
+.affiliate-con img {
+    height: 70px;
+    width: 70px;
+}
+.affiliate-con h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: left;
+}
+.affiliate-con p {
+    font-size: 20px;
+    margin: 0;
+    color: #444;
+    text-align: left;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.con {
+    padding: 10px 15px;
+}
+
+
+
+
+@media (max-width: 576px) {
+    .affiliate h1 {
+        font-size: 28px;
+    }
+    .affiliate p {
+        font-size: 16px;
+    }
+    .affiliate-best h1 {
+        font-size: 24px;
+    }
+    
 }

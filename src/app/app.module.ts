@@ -17,6 +17,7 @@ import { ApiComponent } from './component/api/api.component';
 import { SupportComponent } from './component/support/support.component';
 import { FeaturesComponent } from './component/features/features.component';
 import { AffiliateComponent } from './component/affiliate/affiliate.component';
+import { TestimonialComponent } from './component/testimonial/testimonial.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { AffiliateComponent } from './component/affiliate/affiliate.component';
     ApiComponent,
     SupportComponent,
     FeaturesComponent,
-    AffiliateComponent
+    AffiliateComponent,
+    TestimonialComponent
   ],
   imports: [
     BrowserModule,
