@@ -1,8 +1,13 @@
+// .offer{
+//   position:fixed;
+//   width: 100%;
+//   z-index: 100;
+// }
 .navbar {
-  background-color: transparent;
+  // background: linear-gradient(90deg, #e500223f, #ff4b5c);
   position: fixed;
   width: 100%;
-  z-index: 999999;
+  z-index: 100;
   box-shadow: none; 
   transition: all 0.3s ease;
 }

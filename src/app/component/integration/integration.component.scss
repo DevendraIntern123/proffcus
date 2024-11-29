@@ -7,8 +7,8 @@
     // padding: 30px;
     font-size: 3.0625rem;
     line-height: 3.6875rem;
-    margin-bottom: 1.5rem;
-    margin-top: 20px;
+    // margin-bottom: 1.5rem;
+    // margin-top: 20px;
     font-weight: 700;
     color: #272742;
 }
@@ -46,7 +46,63 @@
     padding: 0;
     margin: 0;
 }
-.training-left{
-padding: 50px 80px;
-text-align: start;
+
+
+.intigration h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.4;
+}
+.intigration p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+}
+.intigration-con {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 20px;
+}
+.intigration-con img {
+    height: 70px;
+    width: 70px;
+    
+}
+.intigration-con h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: left;
+}
+.intigration-con p {
+    font-size: 20px;
+    margin: 0;
+    color: #444;
+    text-align: left;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 10px 10px #9b9b9b59;;
+    border-radius: 20px;
+}
+
+.con {
+    padding: 10px 15px;
+}
+
+
+
+
+@media (max-width: 576px) {
+    .intigration h1 {
+        font-size: 28px;
+    }
+    .intigration p {
+        font-size: 16px;
+    }
+    .intigration-best h1 {
+        font-size: 24px;
+    }
+    
 }

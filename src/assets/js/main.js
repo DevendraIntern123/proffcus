@@ -29,6 +29,7 @@ function toggleNavbarShadow() {
   } else {
     navbar.style.backgroundColor = "transparent";
     navbar.style.boxShadow = "none";
+    // navbar.style.boxShadow = "0px 2px 15px rgba(0, 0, 0, 0.1)";
   }
 }
 
