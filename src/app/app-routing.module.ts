@@ -12,6 +12,7 @@ import { ApiComponent } from './component/api/api.component';
 import { SupportComponent } from './component/support/support.component';
 import { FeaturesComponent } from './component/features/features.component';
 import { AffiliateComponent } from './component/affiliate/affiliate.component';
+import { AdvertiserComponent } from './component/advertiser/advertiser.component';
 
 
 const routes: Routes = [
@@ -26,7 +27,8 @@ const routes: Routes = [
   { path: 'api-integration', component: ApiComponent },
   { path: 'customer-support', component: SupportComponent },
   { path: 'features', component: FeaturesComponent },
-  { path: 'affiliate-network', component: AffiliateComponent }
+  { path: 'affiliate-network', component: AffiliateComponent },
+  {path:'advertisers',component:AdvertiserComponent}
 
 ];
 

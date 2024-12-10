@@ -36,8 +36,10 @@
 }
 
 .api-con img {
+    margin-top: -100px;
     height: 70px;
     width: 70px;
+
 }
 
 .api-con h1 {
@@ -53,12 +55,18 @@
     text-align: left;
 }
 
+.feat img {
+    background-color: #d6d3d3;
+    border-radius: 20px;
+}
+
 .img-fluid {
     max-width: 100%;
     height: auto;
+    ;
 }
 
-//featurs
+/* //featurs */
 
 
 ul.i-list {
@@ -118,10 +126,10 @@ ul.i-list.medium .icon {
     box-shadow: 0 5px 16px rgba(0, 0, 0, .28);
     position: relative;
     z-index: 1;
-    // background-image: url(../img/crease.svg) !important;
-    // -moz-background-size: 100% 100% !important;
-    // background-size: 100% 100% !important;
-    // background-position: center center !important;
+    /* // background-image: url(../img/crease.svg) !important;
+// -moz-background-size: 100% 100% !important;
+// background-size: 100% 100% !important;
+// background-position: center center !important; */
 }
 
 ul.i-list.medium .icon i.fa {

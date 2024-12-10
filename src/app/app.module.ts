@@ -19,6 +19,7 @@ import { FeaturesComponent } from './component/features/features.component';
 import { AffiliateComponent } from './component/affiliate/affiliate.component';
 import { TestimonialComponent } from './component/testimonial/testimonial.component';
 import { TeamComponent } from './component/team/team.component';
+import { AdvertiserComponent } from './component/advertiser/advertiser.component';
 
 
 @NgModule({
@@ -39,7 +40,8 @@ import { TeamComponent } from './component/team/team.component';
     FeaturesComponent,
     AffiliateComponent,
     TestimonialComponent,
-    TeamComponent
+    TeamComponent,
+    AdvertiserComponent
   ],
   imports: [
     BrowserModule,

@@ -1,13 +1,8 @@
-<!-- <section class="offer">
-    <div class="container-fluid bg-dark text-white text-center">
-        <p>Black Friday: 20% for annual prepay, 10% for 6 months prepay!</p>
-    </div>
-</section> -->
 <section>
     <nav class="navbar navbar-expand-lg" id="navbar">
         <div class="container">
-            <a class="navbar-brand" href="">
-                <img src="assets/img/logo.png" alt="Logo">
+            <a class="navbar-brand" href="./">
+                <img src="assets/img/logo.png" alt="Logo" class="img-fluid">
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -18,47 +13,45 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a class="nav-link" routerLink="/">Home</a>
+                        <a class="nav-link" href="./">Home</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="services" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
-                            Services
+                            Solutions
                         </a>
                         <ul class="sub-menu dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" routerLink="/on-boarding"><i
+                            <li><a class="dropdown-item" href="on-boarding"><i
                                         class="bi bi-person-plus"></i>On-Boarding</a></li>
-                            <li><a class="dropdown-item" routerLink="migration"><i
+                            <li><a class="dropdown-item" href="migration"><i
                                         class="bi bi-arrow-repeat"></i>Migration</a></li>
-                            <li><a class="dropdown-item" routerLink="integration"><i
-                                        class="bi bi-puzzle"></i>Integration</a>
+                            <li><a class="dropdown-item" href="advertisers"><i
+                                        class="bi bi-megaphone"></i>Advertisers</a>
                             </li>
-                            <li><a class="dropdown-item" routerLink="api-integration"><i
-                                        class="bi bi-terminal"></i>API</a>
+                            <li><a class="dropdown-item" href="api-integration"><i class="bi bi-terminal"></i>API</a>
                             </li>
-                            <li><a class="dropdown-item" routerLink="affiliate-network"><i
+                            <li><a class="dropdown-item" href="affiliate-network"><i
                                         class="bi bi-link-45deg"></i>Affiliate Network</a></li>
-                            <li><a class="dropdown-item" routerLink="customer-support"><i
-                                        class="bi bi-headset"></i>Customer
+                            <li><a class="dropdown-item" href="customer-support"><i class="bi bi-headset"></i>Customer
                                     Support</a></li>
                         </ul>
                     </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="about">About</a>
+                    </li> -->
                     <li class="nav-item">
-                        <a class="nav-link" routerLink="about">About</a>
+                        <a class="nav-link" href="pricing">Pricing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" routerLink="pricing">Pricing</a>
+                        <a class="nav-link" href="features">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" routerLink="features">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" routerLink="/contact">Contact</a>
+                        <a class="nav-link" href="contact">Contact Us</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="btn nav-link req" routerLink="/contact">Request Demo</a>
+                        <a class="btn nav-link req" href="contact">Request Demo</a>
                     </li>
                 </ul>
             </div>

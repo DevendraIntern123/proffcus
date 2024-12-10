@@ -1,0 +1,120 @@
+.migration {
+    padding: 200px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d6d3d3;
+}
+
+.on-left h1 {
+    /* // padding: 30px; */
+    font-size: 3.0625rem;
+    line-height: 3.6875rem;
+    margin-bottom: 1.5rem;
+    margin-top: 20px;
+    font-weight: 700;
+    color: #272742;
+}
+
+.on-left p {
+    margin-bottom: 2.8125rem;
+    font-size: 1rem;
+    line-height: 30px;
+    font-weight: 400;
+    color: #666;
+    padding: 10px;
+    text-align: left;
+}
+
+.traing-sec img {
+    width: 620px;
+    height: 420px;
+    background-color: #d6d3d3;
+    margin: 15px;
+    border-radius: 20px;
+
+}
+
+
+.on-right img {
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+
+}
+
+
+.training-left {
+    padding: 50px;
+    text-align: start;
+}
+
+.training-left p {
+    margin-left: 70px;
+}
+
+.training-title {
+    display: flex;
+    flex-direction: row;
+}
+
+.training-title img {
+    height: 70px;
+    width: 70px;
+}
+
+
+.adve-section {
+    padding: 50px 0;
+    background-color: #F2F7FF;
+}
+
+.adve-section h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.adve-section p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.benefits-list {
+    list-style: none;
+    padding: 0;
+}
+
+.benefits-list li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.benefits-list li::before {
+    content: '✔';
+    color: red !important;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .adve-section h1 {
+        font-size: 28px;
+    }
+
+    .benefits-list li {
+        font-size: 14px;
+    }
+}
+.req_btn {
+    background-color: #c70925;
+    color: white;
+  }
+  
+  .req_btn:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  

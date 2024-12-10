@@ -1,3 +1,4 @@
+
 .about1 {
     padding-top: 120px;
 
@@ -7,13 +8,13 @@
     width: 100%;
     height: auto;
     padding: 30px;
-    background-color: #dddcdc;
+    background-color: #d6d3d3;
     border-radius: 20px;
 }
 
 .about-con {
     padding: 70px 50px;
-    // background-color: rgb(214, 216, 216);
+    /* // background-color: rgb(214, 216, 216); */
     border-radius: 20px;
     text-align: justify;
 }
@@ -23,8 +24,15 @@ h3 {
 }
 
 .award {
-    background-color: #dddcdc;
+    /* background-color: #d6d3d3; */
     padding: 30px 15px;
+    background-attachment: fixed;
+    // background-image: url("assets/img/client.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #5d5d5dcf;
+    background-blend-mode: darken;
 }
 
 .counter-text h1 {
@@ -32,7 +40,7 @@ h3 {
     font-weight: 700;
     line-height: 1.4;
     text-align: center;
-    color: #333;
+    color: #ffffff;
 }
 
 .counter-section {

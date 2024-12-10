@@ -1,18 +1,23 @@
-.support{
-    width: 100%;
-    padding-top: 100px; 
-    background-color: #dddcdc;
+
+.support {
+    padding: 200px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d6d3d3;
 }
-.support1{
+
+.support1 {
     border-radius: 10px;
-    background-color: #b8b8b8;
+    background-color: #d6d3d3;
     text-align: justify;
     margin-top: 30px;
     padding: 24px;
     font-size: 20px;
 }
-.on-left h1{
-    // padding: 30px;
+
+.on-left h1 {
+    /* // padding: 30px; */
     font-size: 3.0625rem;
     line-height: 3.6875rem;
     margin-bottom: 1.5rem;
@@ -20,41 +25,87 @@
     font-weight: 700;
     color: #272742;
 }
-.on-left p{
+
+.on-left p {
     margin-bottom: 2.8125rem;
     font-size: 1rem;
     line-height: 30px;
     font-weight: 400;
-    color: #666;
+    color: #020202;
     padding: 10px;
     text-align: left;
 }
-.btn{
-    background-color: #408fe9;
-    padding: 15px 40px;
-    margin-top: 0px;
-    font-weight: 700;
-    font-size: 25px;
+
+/* .btn{
+background-color: #408fe9;
+padding: 15px 40px;
+margin-top: 0px;
+font-weight: 700;
+font-size: 25px;
+color: #ffffff;
+} */
+/* .btn:hover{
+background-color: #40d5e9;
+padding: 15px 40px;
+margin-top: 0px;
+font-weight: 700;
+font-size: 25px;
+color: #000000;
+} */
+/* .on-right {
+img {
+    width: 100%; 
+    height: auto;
+    border-radius: 10%; 
+}
+padding: 0;
+margin: 0;
+} */
+/* .about-img img {
+    background-color: #d6d3d3;
+    margin: 10px;
+    border-radius: 20px;
+
+} */
+.training-sec img {
+    width: 620px;
+    height: 420px;
+    background-color: #d6d3d3;
+    margin: 15px;
+    border-radius: 20px;
+
+}
+
+/* .training-left {
+    padding: 50px 80px;
+    text-align: start;
+} */
+
+.training-left {
+    padding: 50px;
+    text-align: start;
+}
+
+.training-left p {
+    margin-left: 70px;
+}
+
+.training-title {
+    display: flex;
+    flex-direction: row;
+}
+
+.training-title img {
+    height: 70px;
+    width: 70px;
+}
+.req_btn {
+    background-color: #c70925;
+    color: white;
+  }
+  
+  .req_btn:hover {
+    background-color: #000000;
     color: #ffffff;
-}
-.btn:hover{
-    background-color: #40d5e9;
-    padding: 15px 40px;
-    margin-top: 0px;
-    font-weight: 700;
-    font-size: 25px;
-    color: #000000;
-}
-.on-right {
-    img {
-        width: 100%; 
-        height: auto;
-        border-radius: 10%; 
-    }
-    padding: 0;
-    margin: 0;
-}
-.training-left{
-padding: 50px 80px;
-text-align: start;
-}
+  }
+  

@@ -1,14 +1,13 @@
 .migration {
-    padding-top: 100px;
-    background-color: #dddcdc;
-}
-
-.container-fluid {
-    padding: 50px;
+    padding: 200px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d6d3d3;
 }
 
 .on-left h1 {
-    // padding: 30px;
+    /* // padding: 30px; */
     font-size: 3.0625rem;
     line-height: 3.6875rem;
     margin-bottom: 1.5rem;
@@ -27,107 +26,67 @@
     text-align: left;
 }
 
-.btn {
-    background-color: #408fe9;
-    padding: 15px 40px;
-    margin-top: 0px;
-    font-weight: 700;
-    font-size: 25px;
-    color: #ffffff;
+.traing-sec img {
+    width: 620px;
+    height: 420px;
+    background-color: #d6d3d3;
+    margin: 15px;
+    border-radius: 20px;
+
 }
 
-.btn:hover {
-    background-color: #40d5e9;
-    padding: 15px 40px;
-    margin-top: 0px;
-    font-weight: 700;
-    font-size: 25px;
-    color: #000000;
+/* .btn{
+background-color: #408fe9;
+padding: 15px 40px;
+margin-top: 0px;
+font-weight: 700;
+font-size: 25px;
+color: #ffffff;
 }
-
-.on-right {
-    img {
-        width: 100%;
-        height: auto;
-        border-radius: 10%;
-    }
-
-    padding: 0;
-    margin: 0;
-}
-
-.img-fluid {
+.btn:hover{
+background-color: #40d5e9;
+padding: 15px 40px;
+margin-top: 0px; 
+font-weight: 700;
+font-size: 25px;
+color: #000000;
+} */
+.on-right img {
     width: 100%;
     height: auto;
-    padding: 100px;
+    border-radius: 10%;
+
 }
 
+/* img {
+    padding: 50px;
+} */
+
 .training-left {
-    padding: 50px 80px;
+    padding: 50px;
     text-align: start;
 }
 
-
-.migration h1 {
-    font-size: 2rem;
-    font-weight: 700;
-    line-height: 1.4;
+.training-left p {
+    margin-left: 70px;
 }
 
-.migration p {
-    font-size: 1.2rem;
-    line-height: 1.6;
-    color: #555;
-}
-
-.migration-con {
+.training-title {
     display: flex;
-    align-items: flex-start;
-    gap: 15px;
-    margin-top: 20px;
+    flex-direction: row;
 }
 
-.migration-con img {
+.training-title img {
     height: 70px;
     width: 70px;
 }
-
-.migration-con h1 {
-    font-size: 1.5rem;
-    font-weight: 600;
-    text-align: left;
-}
-
-.migration-con p {
-    font-size: 20px;
-    margin: 0;
-    color: #444;
-    text-align: left;
-}
-
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-}
-
-.con {
-    padding: 10px 15px;
-}
-
-
-
-
-@media (max-width: 576px) {
-    .migration h1 {
-        font-size: 28px;
-    }
-
-    .migration p {
-        font-size: 16px;
-    }
-
-    .migration-best h1 {
-        font-size: 24px;
-    }
-
-}
+.req_btn {
+    background-color: #c70925;
+    color: white;
+  }
+  
+  .req_btn:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
