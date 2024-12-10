@@ -1,0 +1,17 @@
+{
+  "routes": {
+    "/proffcus": {},
+    "/proffcus/about": {},
+    "/proffcus/advertisers": {},
+    "/proffcus/affiliate-network": {},
+    "/proffcus/api-integration": {},
+    "/proffcus/contact": {},
+    "/proffcus/customer-support": {},
+    "/proffcus/features": {},
+    "/proffcus/integration": {},
+    "/proffcus/migration": {},
+    "/proffcus/on-boarding": {},
+    "/proffcus/pricing": {},
+    "/proffcus/services": {}
+  }
+}
