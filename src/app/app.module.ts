@@ -9,7 +9,6 @@ import { HomeComponent } from './component/home/home.component';
 import { ServiceComponent } from './component/service/service.component';
 import { AboutComponent } from './component/about/about.component';
 import { ContactComponent } from './component/contact/contact.component';
-import { PricingComponent } from './component/pricing/pricing.component';
 import { BoardingComponent } from './component/boarding/boarding.component';
 import { MigrationComponent } from './component/migration/migration.component';
 import { IntegrationComponent } from './component/integration/integration.component';
@@ -20,6 +19,7 @@ import { AffiliateComponent } from './component/affiliate/affiliate.component';
 import { TestimonialComponent } from './component/testimonial/testimonial.component';
 import { TeamComponent } from './component/team/team.component';
 import { AdvertiserComponent } from './component/advertiser/advertiser.component';
+import { PriceComponent } from './component/price/price.component';
 
 
 @NgModule({
@@ -31,7 +31,6 @@ import { AdvertiserComponent } from './component/advertiser/advertiser.component
     ServiceComponent,
     AboutComponent,
     ContactComponent,
-    PricingComponent,
     BoardingComponent,
     MigrationComponent,
     IntegrationComponent,
@@ -41,7 +40,8 @@ import { AdvertiserComponent } from './component/advertiser/advertiser.component
     AffiliateComponent,
     TestimonialComponent,
     TeamComponent,
-    AdvertiserComponent
+    AdvertiserComponent,
+    PriceComponent
   ],
   imports: [
     BrowserModule,
